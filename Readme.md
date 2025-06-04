@@ -139,5 +139,5 @@ Contributions are welcome! Feel free to open issues and submit pull requests to 
 - Special thanks to open-source contributors
 
 ### Deployment
-[Frontend](https:)  
-[Backend](https:)
+[Frontend](https://taskforges.netlify.app/)  
+[Backend](https://taskforge-5282.onrender.com/test)
