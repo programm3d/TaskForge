@@ -102,7 +102,7 @@ userRouter.post("/forgot-password", async (req, res) => {
 
     const email = user.email;
     const resetLink = `${process.env.FRONTEND_URL}/reset-password?token=${resetToken}`;
-    console.log(resetLink,resetToken);
+
     await transporter.sendMail({
       to: email,
       subject: "Password Reset Request",
