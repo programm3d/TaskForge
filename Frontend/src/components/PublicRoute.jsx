@@ -1,4 +1,3 @@
-// src/components/PublicRoute.js
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
@@ -13,7 +12,6 @@ const PublicRoute = ({ children }) => {
     );
   }
 
-  // If user is logged in, redirect to dashboard
   return user ? <Navigate to="/app/dashboard" /> : children;
 };
 
